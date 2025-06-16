@@ -1059,6 +1059,7 @@ footer {
     align-items: center;
     background: white;
     position: relative;
+     animation:op2 ease 2s both;
   }
 
   .home {
@@ -1104,13 +1105,13 @@ footer {
     margin-top: 0;
     padding: 0;
     text-align: center;
-    animation: op2, slidedown2 ease 3s both;
+    animation: op2 ease 3s both;
   }
   .name {
     width: 77%;
     font-size: 25px;
     justify-self: center;
-    animation: type steps(20) 5s ease both;
+    animation: op2 3s ease both;
   }
   .name label {
     font-size: 38px;
