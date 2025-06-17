@@ -246,7 +246,7 @@ display: none;
   color: black;
 }
 .name {
-  width: max-content;
+  width:100%;
   /* border: 2px solid black; */
   height: max-content;
   font-size: clamp(32px, 25px, 35px);
@@ -1133,7 +1133,7 @@ footer {
     animation: op2 ease 3s both;
   }
   .name {
-    width: 77%;
+    width: 100%;
     font-size: 25px;
     justify-self: center;
     animation:op2 ease 1.5s both;
